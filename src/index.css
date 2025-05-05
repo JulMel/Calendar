@@ -1,13 +1,67 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #b7b7a4;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.all-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+
+.one-button {
+  color: #51231e;
+  background-color: #9c563a7b;
+  padding: 5px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100px;
+  border: 1px solid #42221d;
+}
+
+.all-months {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.one-month {
+  width: 300px;
+  border: 1px solid #42221d;
+  margin: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s linear;
+  text-align: center;
+  background-color: #9c563a7b;
+  color: #42221d;
+}
+
+.one-month:hover {
+  transform: scale(1.1);
+}
+
+.one-month img {
+  width: 300px;
+}
+
+.one-month p {
+  margin: 5px;
+}
+
+.holiday {
+  color: #42221d;
+}
+
+.pranostic {
+  font-style: italic;
+  color: #7f4026;
+}
+
+

@@ -1,0 +1,16 @@
+.btn {
+  color: #51231e;
+  background-color: #9c563a7b;
+  border: 1px solid #42221d;
+  padding: 5px 8px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.title {
+  background-color: #42221d;
+  color: antiquewhite;
+  padding: 10px 5px;
+  font-size: 20px;
+  border-radius: 10px;
+}

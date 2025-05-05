@@ -1,0 +1,10 @@
+.all-questions {
+  color: #42221d;
+  margin-top: 40px;
+  margin-left: 535px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
